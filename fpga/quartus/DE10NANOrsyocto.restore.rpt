@@ -1,0 +1,177 @@
+Restore Archived Project report for DE10NANOrsyocto
+Wed Jul  1 13:10:10 2020
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Jul  1 13:10:10 2020 ;
+; Revision Name                   ; DE10NANOrsyocto                       ;
+; Top-level Entity Name           ; DE10NANOrsyocto                       ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/paul/Téléchargements/DE10NANOrsyocto.qar' into the '/home/paul/Documents/projets/DE10NANOrsyocto_restored/' directory
+Info: Generated report 'DE10NANOrsyocto.restore.rpt'
+Info (23030): Evaluation of Tcl script /home/paul/intelFPGA_lite/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 595 megabytes
+    Info: Processing ended: Wed Jul  1 13:10:10 2020
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:07
+
+
++-----------------------------------------------------------------------------------------------+
+; Files Restored                                                                                ;
++-----------------------------------------------------------------------------------------------+
+; File Name                                                                                     ;
++-----------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                 ;
+; DE10NANOrsyocto.qpf                                                                           ;
+; DE10NANOrsyocto.qsf                                                                           ;
+; DE10NANOrsyocto.sdc                                                                           ;
+; DE10NANOrsyocto.v                                                                             ;
+; DE10NANOrsyocto_assignment_defaults.qdf                                                       ;
+; adc_ltc2308_hw.tcl                                                                            ;
+; base_hps.qsys                                                                                 ;
+; base_hps.sopcinfo                                                                             ;
+; base_hps/base_hps.cmp                                                                         ;
+; base_hps/synthesis/base_hps.debuginfo                                                         ;
+; base_hps/synthesis/base_hps.qip                                                               ;
+; base_hps/synthesis/base_hps.regmap                                                            ;
+; base_hps/synthesis/base_hps.v                                                                 ;
+; base_hps/synthesis/base_hps_hps_0_hps.svd                                                     ;
+; base_hps/synthesis/submodules/adc_data_fifo.v                                                 ;
+; base_hps/synthesis/submodules/adc_ltc2308.v                                                   ;
+; base_hps/synthesis/submodules/adc_ltc2308_fifo.v                                              ;
+; base_hps/synthesis/submodules/altdq_dqs2_acv_connect_to_hard_phy_cyclonev.sv                  ;
+; base_hps/synthesis/submodules/altera_avalon_sc_fifo.v                                         ;
+; base_hps/synthesis/submodules/altera_avalon_st_pipeline_base.v                                ;
+; base_hps/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                              ;
+; base_hps/synthesis/submodules/altera_default_burst_converter.sv                               ;
+; base_hps/synthesis/submodules/altera_incr_burst_converter.sv                                  ;
+; base_hps/synthesis/submodules/altera_mem_if_dll_cyclonev.sv                                   ;
+; base_hps/synthesis/submodules/altera_mem_if_hard_memory_controller_top_cyclonev.sv            ;
+; base_hps/synthesis/submodules/altera_mem_if_hhp_qseq_synth_top.v                              ;
+; base_hps/synthesis/submodules/altera_mem_if_oct_cyclonev.sv                                   ;
+; base_hps/synthesis/submodules/altera_merlin_address_alignment.sv                              ;
+; base_hps/synthesis/submodules/altera_merlin_arbitrator.sv                                     ;
+; base_hps/synthesis/submodules/altera_merlin_axi_master_ni.sv                                  ;
+; base_hps/synthesis/submodules/altera_merlin_burst_adapter.sv                                  ;
+; base_hps/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                             ;
+; base_hps/synthesis/submodules/altera_merlin_burst_adapter_new.sv                              ;
+; base_hps/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                           ;
+; base_hps/synthesis/submodules/altera_merlin_burst_uncompressor.sv                             ;
+; base_hps/synthesis/submodules/altera_merlin_reorder_memory.sv                                 ;
+; base_hps/synthesis/submodules/altera_merlin_slave_agent.sv                                    ;
+; base_hps/synthesis/submodules/altera_merlin_slave_translator.sv                               ;
+; base_hps/synthesis/submodules/altera_merlin_traffic_limiter.sv                                ;
+; base_hps/synthesis/submodules/altera_reset_controller.sdc                                     ;
+; base_hps/synthesis/submodules/altera_reset_controller.v                                       ;
+; base_hps/synthesis/submodules/altera_reset_synchronizer.v                                     ;
+; base_hps/synthesis/submodules/altera_wrap_burst_converter.sv                                  ;
+; base_hps/synthesis/submodules/base_hps_hps_0.v                                                ;
+; base_hps/synthesis/submodules/base_hps_hps_0_fpga_interfaces.sdc                              ;
+; base_hps/synthesis/submodules/base_hps_hps_0_fpga_interfaces.sv                               ;
+; base_hps/synthesis/submodules/base_hps_hps_0_hps_io.v                                         ;
+; base_hps/synthesis/submodules/base_hps_hps_0_hps_io_border.sdc                                ;
+; base_hps/synthesis/submodules/base_hps_hps_0_hps_io_border.sv                                 ;
+; base_hps/synthesis/submodules/base_hps_led_pio.v                                              ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0.v                                    ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_avalon_st_adapter.v                  ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_cmd_demux.sv                         ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_cmd_mux.sv                           ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_router.sv                            ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_router_002.sv                        ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_rsp_demux.sv                         ;
+; base_hps/synthesis/submodules/base_hps_mm_interconnect_0_rsp_mux.sv                           ;
+; base_hps/synthesis/submodules/base_hps_pb_pio.v                                               ;
+; base_hps/synthesis/submodules/base_hps_pll_adc_clk.qip                                        ;
+; base_hps/synthesis/submodules/base_hps_pll_adc_clk.v                                          ;
+; base_hps/synthesis/submodules/base_hps_sw_pio.v                                               ;
+; base_hps/synthesis/submodules/base_hps_sysid.v                                                ;
+; base_hps/synthesis/submodules/base_hps_sysid_qsys.v                                           ;
+; base_hps/synthesis/submodules/hps.pre.xml                                                     ;
+; base_hps/synthesis/submodules/hps_AC_ROM.hex                                                  ;
+; base_hps/synthesis/submodules/hps_inst_ROM.hex                                                ;
+; base_hps/synthesis/submodules/hps_sdram.v                                                     ;
+; base_hps/synthesis/submodules/hps_sdram_p0.ppf                                                ;
+; base_hps/synthesis/submodules/hps_sdram_p0.sdc                                                ;
+; base_hps/synthesis/submodules/hps_sdram_p0.sv                                                 ;
+; base_hps/synthesis/submodules/hps_sdram_p0_acv_hard_addr_cmd_pads.v                           ;
+; base_hps/synthesis/submodules/hps_sdram_p0_acv_hard_io_pads.v                                 ;
+; base_hps/synthesis/submodules/hps_sdram_p0_acv_hard_memphy.v                                  ;
+; base_hps/synthesis/submodules/hps_sdram_p0_acv_ldc.v                                          ;
+; base_hps/synthesis/submodules/hps_sdram_p0_altdqdqs.v                                         ;
+; base_hps/synthesis/submodules/hps_sdram_p0_clock_pair_generator.v                             ;
+; base_hps/synthesis/submodules/hps_sdram_p0_generic_ddio.v                                     ;
+; base_hps/synthesis/submodules/hps_sdram_p0_iss_probe.v                                        ;
+; base_hps/synthesis/submodules/hps_sdram_p0_parameters.tcl                                     ;
+; base_hps/synthesis/submodules/hps_sdram_p0_phy_csr.sv                                         ;
+; base_hps/synthesis/submodules/hps_sdram_p0_pin_assignments.tcl                                ;
+; base_hps/synthesis/submodules/hps_sdram_p0_pin_map.tcl                                        ;
+; base_hps/synthesis/submodules/hps_sdram_p0_report_timing.tcl                                  ;
+; base_hps/synthesis/submodules/hps_sdram_p0_report_timing_core.tcl                             ;
+; base_hps/synthesis/submodules/hps_sdram_p0_reset.v                                            ;
+; base_hps/synthesis/submodules/hps_sdram_p0_reset_sync.v                                       ;
+; base_hps/synthesis/submodules/hps_sdram_p0_timing.tcl                                         ;
+; base_hps/synthesis/submodules/hps_sdram_pll.sv                                                ;
+; base_hps/synthesis/submodules/sequencer/alt_types.pre.h                                       ;
+; base_hps/synthesis/submodules/sequencer/emif.pre.xml                                          ;
+; base_hps/synthesis/submodules/sequencer/sdram_io.pre.h                                        ;
+; base_hps/synthesis/submodules/sequencer/sequencer.pre.c                                       ;
+; base_hps/synthesis/submodules/sequencer/sequencer.pre.h                                       ;
+; base_hps/synthesis/submodules/sequencer/sequencer_auto.pre.h                                  ;
+; base_hps/synthesis/submodules/sequencer/sequencer_auto_ac_init.pre.c                          ;
+; base_hps/synthesis/submodules/sequencer/sequencer_auto_inst_init.pre.c                        ;
+; base_hps/synthesis/submodules/sequencer/sequencer_defines.pre.h                               ;
+; base_hps/synthesis/submodules/sequencer/system.pre.h                                          ;
+; base_hps/synthesis/submodules/sequencer/tclrpt.pre.c                                          ;
+; base_hps/synthesis/submodules/sequencer/tclrpt.pre.h                                          ;
++-----------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

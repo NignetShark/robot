@@ -14,8 +14,10 @@ class RotaryEncoder(bitWidth: Int) extends Module {
     val lastValueChannelB = RegNext(io.channelB)
 
     val incrementer = Module(new Incrementer(bitWidth))
-    val enable = WireInit(Bool(), false.B)
-    val increment = WireInit(Bool(), true.B)
+    val enable = RegInit(Bool(), false.B)
+    val increment = RegInit(Bool(), true.B)
+
+    enable := false.B
 
     // Channel A rising edge
     when(io.channelA && !lastValueChannelA) {

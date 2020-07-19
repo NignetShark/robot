@@ -1,0 +1,7 @@
+4x Sonars HC-SR04 (5v, GND, resistances echo) 15mA
+1x GPS BN-880 (3.3v, GND, SERIAL, I2C) 50mA
+1x Accelerometre / Gyroscope BNO055 (3.3v, GND, I2C, RESET, ADDR ?) 13mA
+2x Motor driver (5v, GND, IN1 - 4)
+2x Antennes NRF24L01+ (SCK, MISO, MOSI, CE, CSN, IRQ, 5V, GND) 500mA
+laser ?
+
