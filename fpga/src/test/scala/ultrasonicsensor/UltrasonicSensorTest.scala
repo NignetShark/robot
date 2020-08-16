@@ -17,6 +17,8 @@ class UltrasonicSensorTester(sensor: UltrasonicSensor) extends PeekPokeTester(se
         while (peek(sensor.io.trigger) == 1) step(1)
         println("OK.")
     }
+
+    poke(sensor.io.start, true)
     for(i <- 1 to 3) {
 
         waitEndOfTrigger()

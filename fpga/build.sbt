@@ -26,30 +26,29 @@ def javacOptionsVersion(scalaVersion: String): Seq[String] = {
   }
 }
 
-name := "chisel-module-template"
+name := "RobotFPGA"
 
-version := "3.3.0"
+version := "beta"
 
 scalaVersion := "2.12.10"
 
-crossScalaVersions := Seq("2.12.10", "2.11.12")
+crossScalaVersions := Seq("2.11.12", "2.12.10")
 
 resolvers ++= Seq(
   Resolver.sonatypeRepo("snapshots"),
   Resolver.sonatypeRepo("releases")
 )
 
-addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full)
+val defaultVersions = Map(
+  "chisel3" -> "3.3.0-RC1",
+  "chisel-iotesters" -> "1.3.+",
+)
 
-// Provide a managed dependency on X if -DXVersion="" is supplied on the command line.
-val defaultVersions = Seq(
-  "chisel-iotesters" -> "1.4.1+",
-  "chiseltest"  -> "0.2.1+"
-  )
-
-libraryDependencies ++= defaultVersions.map { case (dep, ver) =>
-  "edu.berkeley.cs" %% dep % sys.props.getOrElse(dep + "Version", ver) }
+libraryDependencies ++= Seq("chisel3","chisel-iotesters").map {
+  dep: String => "edu.berkeley.cs" %% dep % sys.props.getOrElse(dep + "Version", defaultVersions(dep)) }
 
 scalacOptions ++= scalacOptionsVersion(scalaVersion.value)
+scalacOptions += "-language:reflectiveCalls"
 
 javacOptions ++= javacOptionsVersion(scalaVersion.value)
+trapExit := false
